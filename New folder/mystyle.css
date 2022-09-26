@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	background:gray;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    background: #4a2811;
+    overflow: hidden;
+}
+header {
+    background: #51220d96;
+    overflow: hidden;
+}
+img {
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+    border-radius: 108%;
+    float: left;
+}
+.profile_bio {
+    float: left;
+    color: #e3ddbd;
+    font-size: 17px;
+    padding: 68px;
+}
+.profile_info {
+    float: right;
+    font-size: 22px;
+    padding: 29px 13px;
+    margin-top: 44px;
+}
+.profile_info ul li{
+	list-style:none;
+}
+.profile_info ul li a{text-decoration: none;color: #dfd9b6;font-size: 19px;}
+hr {
+    border: 2px solid white;
+    border-bottom: none;
+    width: 96%;
+    margin: auto;
+}
+
+.lefTitle_div {
+    width: 30%;
+    float: left;
+}
+.right_demo {
+    width: 70%;
+    float: left;
+    text-align: justify;
+}
+.content {
+    overflow: hidden;
+    color: #e7e1c1;
+    font-size: 20px;
+    padding: 57px 15px;
+}
+.information-left {
+    width: 46%;
+    float: left;
+}
+
+.information_right {
+    width: 43%;
+    float: right;
+    padding: 0px 16px;
+}
+footer.footer-area{
+  text-align: center;
+  margin-top: 42px;
+}
+footer.footer-area a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+footer.footer-area p {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    padding: 22px 0px;
+}
